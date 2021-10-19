@@ -1,0 +1,8 @@
+<h1> This si my blog home page</h1>
+
+{% for blog in blogs %}
+    <h2>{{ blog.title }}</h2>
+    <h5>{{ blog.pub_date }}</h5>
+    <p>{{ blog.description }}</p>
+    
+{% endfor%}
