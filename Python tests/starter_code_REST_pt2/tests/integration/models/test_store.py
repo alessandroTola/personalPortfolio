@@ -1,7 +1,7 @@
 from models.item import ItemModel
 from models.store import StoreModel
 
-from tests.integration.integration_base_test import IntegrationBaseTest
+from tests.base_test import IntegrationBaseTest
 
 
 class StoreTest(IntegrationBaseTest):
