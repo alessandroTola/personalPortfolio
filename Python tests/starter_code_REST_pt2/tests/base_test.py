@@ -11,7 +11,7 @@ from app import app
 from db import db
 
 
-class IntegrationBaseTest(TestCase):
+class BaseTest(TestCase):
     @classmethod
     def setUpClass(cls):
         # Make sure database exists

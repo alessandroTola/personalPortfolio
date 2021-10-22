@@ -1,10 +1,10 @@
 from models.item import ItemModel
 from models.store import StoreModel
 
-from tests.base_test import IntegrationBaseTest
+from tests.base_test import BaseTest
 
 
-class StoreTest(IntegrationBaseTest):
+class StoreTest(BaseTest):
     def test_create_store_items_empty(self):
         store = StoreModel('test')
 
